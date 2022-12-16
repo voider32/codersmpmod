@@ -1,6 +1,7 @@
 package net.voider.codersmp;
 
 import net.fabricmc.api.ModInitializer;
+import net.voider.codersmp.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,8 @@ public class CoderSmp implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
 
 	}
 }
